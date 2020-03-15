@@ -1,6 +1,8 @@
 .support {
 
     &__title {
+        margin-top: 75px;
+        margin-bottom: 60px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -11,9 +13,14 @@
         text-transform: uppercase;
         /* black */
         color: #232323;
+
+        @media (max-width: 991px) {
+            font-size: 24px;
+        }
     }
 
     &__subtitle {
+        margin: 0;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
@@ -23,10 +30,15 @@
         text-transform: uppercase;
         /* black */
         color: #232323;
+
+        @media (max-width: 991px) {
+            font-size: 18px;
+            line-height: 36px;
+        }
     }
 
     &__text {
-        margin-top: 18px;
+        margin-top: 10px;
         margin-bottom: 116px;
         font-family: 'Roboto';
         font-style: normal;
@@ -40,6 +52,6 @@
 
     &__img {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 }

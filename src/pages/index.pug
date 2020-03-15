@@ -2,7 +2,11 @@ extends ../template/layout.pug
 
 //- include blocks here
 include ../blocks/btn/_btn.pug
+include ../blocks/contact/_contact.pug
+include ../blocks/footer/_footer.pug
+
 
 block page
     //- type pug code here
-    +btn('send')
+    +contact
+    +footer

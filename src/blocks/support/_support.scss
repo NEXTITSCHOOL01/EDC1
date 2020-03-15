@@ -1,80 +1,45 @@
+.support {
 
-.title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 48px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    text-transform: uppercase;
-    /* black */
-    color: #232323;
-}
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height, or 150% */
+        text-align: center;
+        text-transform: uppercase;
+        /* black */
+        color: #232323;
+    }
 
-.col-4 span {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height, or 150% */
-    text-transform: uppercase;
-    /* black */
-    color: #232323;
-}
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+        text-transform: uppercase;
+        /* black */
+        color: #232323;
+    }
 
-.col-4 p {
-    margin-top: 6px;
-    margin-bottom: 116px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-    /* black */
-    color: #232323;
-}
+    &__text {
+        margin-top: 18px;
+        margin-bottom: 116px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        /* black */
+        color: #232323;
+    }
 
-.col-4 img {
-    width: 100%;
-}
-
-.bg {
-    padding-top: 102px;
-    padding-left: 150px;
-    background: #6E6E6F;
-   
-}
-
-.bg__title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-.bg__subtitle {
-    padding-right: 162px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-bottom: 28px;
-}
-
-.bgforimg {
-    overflow: hidden;
-}
-
-.bgimg {
-    width: 100%;
-    background-size: cover;
+    &__img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

@@ -1,6 +1,8 @@
 .support {
 
     &__title {
+        margin-top: 80px;
+        margin-bottom: 60px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -14,6 +16,7 @@
     }
 
     &__subtitle {
+        margin: 0;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;

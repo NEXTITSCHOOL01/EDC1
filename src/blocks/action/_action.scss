@@ -1,7 +1,7 @@
 .action {
 
     &__bg {
-        padding-top: 102px;
+        padding-top: 100px;
         padding-left: 150px;
         padding-bottom: 68px;
         background: #6E6E6F;
@@ -9,6 +9,7 @@
     }
 
     &__title {
+        margin: 0;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -20,14 +21,15 @@
     }
 
     &__subtitle {
-        padding-right: 162px;
+        margin: 0;
+        padding-right: 100px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;
-        margin-bottom: 28px;
+        margin-bottom: 34px;
     }
 
     &__img {
